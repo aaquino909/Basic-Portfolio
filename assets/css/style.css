@@ -1,45 +1,98 @@
 body {
     background-color: #ffffff;
-    border: #666666;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    background-image: url("/Users/angeloaquino/projects/Basic-Portfolio/assets/images/grayBackground.jpg");
+    background-repeat: repeat-y;
+    margin: auto;
+    
 }
 
-header{
+.container{
+    background-color: gray;
+    margin: auto;
+    width: 960px;
+
+}
+.section {
+        display: block;
+        background:white;
+        border: 1px solid white;
+}
+div{
+    padding: 10px;
+}
+.nameBanner{
+    background-color: teal;
+    height:40px;
+    width: 30%;
+    float: left;
+    color:  white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.topnav{
+    background-color: white;
+    height:40px;
+    width: 30%;
+    float: right;
+    text-align: right;
+    color: #000000;
+   
+}
+.aboutMeContainer{
+    background: lightgray;
+    opacity: 100%;
+    bottom: 0;
+
+}
+img{
+    padding:10px ;
+    float: left;
+}
+.whiteBox{
+    background-color: white;
+    margin: auto;
+    padding: 1px;
+    color: gray;
+
+}
+footer{
+    background-color: darkcyan;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+/* .nameBanner{
+    display: inline-block;
     background-color: teal;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border: #cccccc;
     color: #ffffff;
-    max-width: 275px;
-}
+    width: 30%;
+    height: 30px;
+    float: left; */
+
 /* Add a black background color to the top navigation */
-.topnav {
-    background-color:#ffffff;
-    overflow: hidden;
-}
-/*NAVIATION*/
-/* Style the links inside the navigation bar */
-.topnav a {
+/* .topnav {
+    background-color: blue;
+    display: inline-block;
+    width: 68%;
+    height: 30px;
+    float: right; */
+
+
+/* .topnav a {
     float: left;
     color: #666666;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 0px 5px;
     text-decoration: none;
     font-size: 17px;
-}
+} */
 
-/* Change the color of links on hover */
-.topnav a:hover {
+/* .topnav a:hover {
     background-color: #ddd;
     color: black;
-}
-/* wrapping my header and navigation*/
-#wrapper {
-    width: 960px;
-}
-#first {
-    width: 300px;
-}
-#second {
-    width: 300px;
-    float: right;
-}
+} */
+ 
