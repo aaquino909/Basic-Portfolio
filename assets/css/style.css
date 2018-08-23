@@ -1,12 +1,15 @@
-body {
+html,body {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14;
     background-image: url("/Users/angeloaquino/projects/Basic-Portfolio/assets/images/grayBackground.jpg");
     background-repeat: repeat-y;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    height: 100%;
     
 }
+
 .container{
     margin: auto;
     width: 960px;
@@ -26,9 +29,8 @@ body {
 .spacer {
     background-color:white;
     height: 61px;
-     width: 21%;
+    width: 21%;
     float: left;
-    font-size: 55px;
     padding-top: 10px;
 }
 
@@ -40,7 +42,7 @@ body {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    font-size: 46px;
+    font-size: 300%;
     padding-top: 10px;
 }
 .topnav {
@@ -58,8 +60,7 @@ body {
 .aboutMeContainer{
     background: white;
     opacity: 100%;
-    bottom: 0;
-
+    overflow: auto;
 }
 img{
     padding:10px ;
@@ -70,7 +71,6 @@ img{
     margin: auto;
     padding: 18px;
     color: gray;
-
 }
 .aboutMeTitle {
     background-color: transparent;
@@ -85,10 +85,10 @@ img{
     color: #4aaaa5;
 }
 footer{
-    background-color: #4aaaa5;
-    position: absolute;
+    background-color: #928f8f;
+    position: fixed;
     height: 50px;
-    border-top: 5px solid gray;
+    border-top: 5px solid #4aaaa5;
     bottom: 0;
     width: 100%;
     padding: 3px;
@@ -106,7 +106,17 @@ footer{
     background-color: #ddd;
     color: black;
 }
- 
+
+
+/* Portfolio Wrapper */
+
+.wrapper {
+    background-color:#ffffff;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    float: left;
+}
 /* INPUT FORM */
 
 /* Style inputs with type="text", select elements and textareas */
