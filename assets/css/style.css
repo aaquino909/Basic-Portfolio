@@ -2,7 +2,7 @@ body {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14;
-    background-image: url("assets/images/grayBackground.jpg");
+    background-image: url("grayBackground.jpg");
     background-repeat: repeat-y;
     margin: auto;
     
