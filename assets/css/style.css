@@ -2,7 +2,7 @@ html,body {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14;
-    background-image: url("/Users/angeloaquino/projects/Basic-Portfolio/assets/images/grayBackground.jpg");
+    background-image: url("../images/grayBackground.jpg");
     background-repeat: repeat-y;
     margin: 0;
     padding: 0;
@@ -116,6 +116,26 @@ footer{
     margin: 0 auto;
     padding: 20px;
     float: left;
+}
+.photo {
+    font-size: 50px;
+    background-color: transparent;
+    width: 46%;
+    height: 218px;
+    float: left;
+}
+
+.caption {
+    background-color: #4aaaa5;
+    height: 10%;
+    width: 200px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 134px;
+    color: #ffffff;
 }
 /* INPUT FORM */
 
