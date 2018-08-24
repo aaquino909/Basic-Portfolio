@@ -154,14 +154,15 @@ footer{
 }
 .caption {
     background-color: #4aaaa5;
-    height: 52px;
+    height: 33px;
     width: 200px;
     margin: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    font-size: 55px;
+    font-size: 15px;
     text-align: center;
-    margin-top: 134px;
+    padding-top: 19px;
+    margin-top: 143px;
     color: #ffffff;
 }
 /* INPUT FORM */
